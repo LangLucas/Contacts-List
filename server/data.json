@@ -1,0 +1,40 @@
+{
+  "contactos": [
+    {
+      "id": 1,
+      "nombre": "Juan",
+      "correo": "juancho@gmail.com",
+      "telefono": "1161418779"
+    },
+    {
+      "id": 2,
+      "nombre": "Laura",
+      "correo": "Lau@gmail.com",
+      "telefono": "115787962"
+    },
+    {
+      "id": 3,
+      "nombre": "Meri",
+      "correo": "maria@gmail.com",
+      "telefono": "114325988"
+    },
+    {
+      "nombre": "Mauricio",
+      "correo": "MauricioExample@correo.com",
+      "telefono": "44456780",
+      "id": 4
+    },
+    {
+      "nombre": "Natalia",
+      "correo": "Nati@gmail.com",
+      "telefono": "778665342",
+      "id": 5
+    },
+    {
+      "nombre": "Hugo",
+      "correo": "Hugo2001Alvarez@hotmail.com.ar",
+      "telefono": "33344123120",
+      "id": 6
+    }
+  ]
+}

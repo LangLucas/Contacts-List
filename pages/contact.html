@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- Mis estilos -->
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/contacts.css">
+    <title>App crud-contacts</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>App</h1>
+            <nav>
+                <a href="../index.html">Home</a>
+                <a href="./contact.html">Contact</a>
+                <a href="./about.html">About</a>
+            </nav>
+        </header>
+
+        <main>
+            <div class="crud">
+
+                <div class="form-contacts">
+                    <form autocomplete="off">
+                        <div class="form-inputs">
+                            <!-- expresion regular -->
+                            <input type="text" pattern="^[a-zA-Z\s ]{2,254}" required id="nombre" placeholder="Escriba el nombre">
+                            <input type="email" id="correo" placeholder="Correo electrónico">
+                            <input type="text" pattern="^[0-9]*$" id="telefono" placeholder="telefono de contacto">
+                        </div>
+                        <div class="form-buttons">
+                            <input id="btn-guardar" type="submit" value="Guardar">
+                            <input type="reset" value="Cancelar">
+                        </div>
+                    </form>
+                </div>
+
+                <div class="list-contacts">
+                    
+                </div>
+
+            </div>
+        </main>
+    </div>
+
+
+    <script src="../js/contacts.js"></script>
+</body>
+
+</html>
