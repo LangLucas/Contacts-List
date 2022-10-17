@@ -33,3 +33,18 @@ header a{
     font-size: 22px;
     padding: 5px 12px;
 }
+
+@media screen And (max-width:630px) {
+    header{
+        flex-direction: column;
+        height: initial;
+    }
+    nav{
+        width: 100%;
+    }
+
+    header a{
+        display: block;
+        text-align: center;
+    }
+}

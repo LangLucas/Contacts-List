@@ -96,7 +96,7 @@ form input[type="submit"]:hover {
     border: none;
     padding: 5px;
     margin: 5px;
-    font-size: 25px;
+    font-size: 12px;
     cursor: pointer;
     box-shadow: 0 0 2px rgba(0,0,0 .2);
 }

@@ -1,10 +1,10 @@
 {
   "contactos": [
     {
-      "id": 1,
-      "nombre": "Juan",
+      "nombre": "JuanChi",
       "correo": "juancho@gmail.com",
-      "telefono": "1161418779"
+      "telefono": "1161418779",
+      "id": 1
     },
     {
       "id": 2,
@@ -35,6 +35,12 @@
       "correo": "Hugo2001Alvarez@hotmail.com.ar",
       "telefono": "33344123120",
       "id": 6
+    },
+    {
+      "nombre": "FernandoRey",
+      "correo": "FernanRey@gmail.com",
+      "telefono": "341111465",
+      "id": 7
     }
   ]
 }
